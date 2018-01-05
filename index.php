@@ -5,7 +5,7 @@ $site_description =  "Easily count how many chicks and how many dudes are in you
 $fb_app_id =        "1470937482981086";
 $share_img_url =    "http://howmanychicks.com/images/share.png";
 $ga_tracker =       "UA-56245046-20";
-$tweet_text =       rawurlencode("Wandering how many chicks and dudes are on your list ? Try this !");
+$tweet_text =       rawurlencode("Wondering how many chicks and dudes are on your list? Try this!");
 ?>
 
 
