@@ -24,6 +24,7 @@ $.getJSON( "data.json").done(function(v) {
                 f++
             }else{
                 u++;
+                bin.push(names[i]);
             }
         }
 
@@ -31,8 +32,18 @@ $.getJSON( "data.json").done(function(v) {
             fp = Math.round(100 / names.length * f, -1),
             up = 100 - mp - fp;
 
-        var update = $(".confirm").html().replace("{CHICKS}", fp + "%").replace("{DUDES}", mp + "%").replace("{UNSURE}", up + "%");
-        $(".confirm").html(update);
+        $(".confirm").html(fp + "% are 👩<br/>" + mp + "% are 👨");
+
+        if(up>0){
+          $(".confirm").append("<br/>For " + up + "%, we are 😕");
+        }
+
+        if(fp>=(fp+mp)/2){
+          $(".confirm").append("<br/>💪");
+        }else{
+          $(".confirm").append("<br/>🤷‍♂️");
+        }
+
 
         $(".viewport").addClass("success");
 
