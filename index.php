@@ -91,10 +91,6 @@ $tweet_text =       rawurlencode("Wondering how many chicks and dudes are on you
                 </header>
 
 								<div class="confirm">
-										{CHICKS} are 👩<br/>
-										{DUDES} are 👨<br/>
-										For {UNSURE}, we are 😕
-										
 								</div>
 
             </div><!--positioner-->
