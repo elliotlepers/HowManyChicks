@@ -24,7 +24,6 @@ $.getJSON( "data.json").done(function(v) {
                 f++
             }else{
                 u++;
-                $(".unsure").append(names[i] + "<br/>");
             }
         }
 

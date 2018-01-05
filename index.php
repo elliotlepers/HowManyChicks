@@ -76,30 +76,30 @@ $tweet_text =       rawurlencode("Wandering how many chicks and dudes are on you
                     <blockquote>
                     </blockquote>
 
+										<form class="form">
+		                    Paste in a list of first names. We'll tell you how many chicks and dudes you have in it.<br/>
+		                    Please, one name per line.
+		                    <div class="clearfix"></div>
+		                    <textarea name="names" class="names" placeholder=""></textarea>
+
+		                    <button type="submit" name="submit" class="submit" data-loading-text="<i class='spinner sm-spin'></i> Calculating">
+		                        Tell me how many chicks and dudes
+		                    </button>
+
+		                </form>
+
                 </header>
 
-                <form class="form">
-                    Paste in a list of first names. We'll tell you how many chicks and dudes you have in it.<br/>
-                    Please, one name per line.
-                    <div class="clearfix"></div>
-                    <textarea name="names" class="names" placeholder=""></textarea>
-
-                    <button type="submit" name="submit" class="submit" data-loading-text="<i class='spinner sm-spin'></i> Calculating">
-                        Tell me how many chicks and dudes
-                    </button>
-
-                </form>
-
-                <div class="clearfix"></div>
+								<div class="confirm">
+										{CHICKS} are 👩<br/>
+										{DUDES} are 👨<br/>
+										For {UNSURE}, we are 😕
+										
+								</div>
 
             </div><!--positioner-->
 
-            <div class="confirm">
-                {CHICKS} are 👩<br/>
-                {DUDES} are 👨<br/>
-                For {UNSURE}, we are 😕
-								<p class="unsure"></p>
-            </div>
+
 
         </div><!--viewport-->
 
