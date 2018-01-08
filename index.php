@@ -1,6 +1,6 @@
 <?php
 $site_domain =      "http://howmanychicks.com";
-$site_title =       "How many chicks ?";
+$site_title =       "How many chicks?";
 $site_description =  "Easily count how many chicks and how many dudes are in your list";
 $fb_app_id =        "1470937482981086";
 $share_img_url =    "http://howmanychicks.com/images/share.png";
